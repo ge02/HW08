@@ -24,6 +24,12 @@ public class Calculator {
 		public int multiply2(int valueOne, int valueTwo) {
 			return valueOne * valueTwo;
 		}
+		
+	while(true) {
+		int x = 1;
+		int y = 2;
+		int z = x + y;
+	}
 	
 	int hellomynameisanthonyandistudyincologne = 0;
 
@@ -39,4 +45,4 @@ public class Calculator {
 	if(true){
 		System.out.println("true is true");
 	}
-}}
+}
