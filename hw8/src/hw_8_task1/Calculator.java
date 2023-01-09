@@ -4,6 +4,8 @@ public class Calculator {
 
 	int x = 3;
 	boolean isTrue = true;
+	boolean isTrue = true;
+	float hellomynameisanthonyandthisisaverylongnameforavariable = 1;
 
 	// plus operation
 	public int add(int valueOne, int valueTwo) {
@@ -24,25 +26,24 @@ public class Calculator {
 		public int multiply2(int valueOne, int valueTwo) {
 			return valueOne * valueTwo;
 		}
-		
-	while(true) {
-		int x = 1;
-		int y = 2;
-		int z = x + y;
-	}
+
 	
-	int hellomynameisanthonyandistudyincologne = 0;
 
 	// this part works correct
 	public float divide(int numerator, int denominator) {
 		if (denominator == 0)
 			throw new ArithmeticException("ZeroDivisionError");
+		if(true) {
+			int x = 5;
+		}
 
 		return (float) numerator / denominator;
+		
+		System.out.println("Hi");
 
 	}
+	
+	
 
-	if(true){
-		System.out.println("true is true");
-	}
+
 }
