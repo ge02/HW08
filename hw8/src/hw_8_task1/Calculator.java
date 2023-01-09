@@ -19,6 +19,8 @@ public class Calculator {
 	public int multiply(int valueOne, int valueTwo) {
 		return valueOne * valueTwo;
 	}
+	
+	int hellomynameisanthonyandistudyincologne = 0;
 
 	// this part works correct
 	public float divide(int numerator, int denominator) {
@@ -28,8 +30,8 @@ public class Calculator {
 		return (float) numerator / denominator;
 
 	}
-	
+
 	if(true){
 		System.out.println("true is true");
 	}
-}
+}}
