@@ -20,6 +20,11 @@ public class Calculator {
 		return valueOne * valueTwo;
 	}
 	
+	// this is correct
+		public int multiply2(int valueOne, int valueTwo) {
+			return valueOne * valueTwo;
+		}
+	
 	int hellomynameisanthonyandistudyincologne = 0;
 
 	// this part works correct
